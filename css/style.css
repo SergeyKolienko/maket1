@@ -1,3 +1,18 @@
 a {
     color: orange;
+    font-size: 24px;
+}
+
+
+
+.test-link {
+    color: black;
+    font-size: 30px;
+}
+
+
+
+a.test-link {
+    color: teal;
+    font-size: 24px;
 }
