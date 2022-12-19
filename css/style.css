@@ -1,18 +1,14 @@
-a {
-    color: orange;
-    font-size: 24px;
+body {
+    color: #2a2a2a;
 }
 
-
-
-.test-link {
-    color: black;
-    font-size: 30px;
-}
-
-
-
-a.test-link {
-    color: teal;
-    font-size: 24px;
-}
+/* цвет основного текста #212121 */
+/* вторичній цвет текста #757575 */
+ /* белий #FFFFFF */
+ /* акцент #2196F3 */
+ /* цвет фона вторичний 
+ #2F303A
+ #E5E5E5
+ #F5F4FA
+ */
+ /* шапка #FFFFFF */
