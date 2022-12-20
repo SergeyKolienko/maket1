@@ -1,14 +1,47 @@
-body {
-    color: #2a2a2a;
+:root {
+  --primary-text-color: rgba(0, 0, , 0.8);
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --primary-white-color: #ffffff;
+  --logo-color:  #000000;
 }
 
-/* цвет основного текста #212121 */
-/* вторичній цвет текста #757575 */
- /* белий #FFFFFF */
- /* акцент #2196F3 */
- /* цвет фона вторичний 
- #2F303A
- #E5E5E5
- #F5F4FA
- */
- /* шапка #FFFFFF */
+body {
+  background-color: #FFFFFF;
+  color: var(--primary-text-color);
+}
+
+p {
+  color: #757575;
+}
+
+
+.logo {
+  color: var(--logo-color);
+}
+.logo:hover {
+  color: var(--accent-color);
+}
+
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+
+/* Section */
+.section-list {
+  color: var(--title-text-color);
+}
+
