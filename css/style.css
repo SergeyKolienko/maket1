@@ -64,3 +64,8 @@ p {
 }
 
 /* Button */
+
+/* Убираем маркеры */
+li {
+  list-style-type: none; 
+  }
